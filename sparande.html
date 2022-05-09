@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+
+<title>Budget</title>
+<style>
+h1{margin-top: 5vh; font-size: 8vh;}
+h3 { font-size: 4vh; text-align: center;}
+
+img
+{
+width: 30vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0vw 0vw 0.2vw black;
+}
+
+.bigBox
+{
+width: 100%;
+height: 110vh;
+margin: auto;
+margin-top: 12vh;
+font-size: 2vh;
+color: black;
+text-align: justify;
+font-family: 'Roboto', sans-serif;
+}
+.topBox
+{
+height:100%;
+width:61%;
+margin:auto;
+}
+.topL
+{
+width:47.5%;
+float:left;
+}
+.topR
+{
+width:47.5%;
+float:right;
+}
+.midRe
+{
+width:100%;
+float:right;
+}
+.midR
+{
+width:100%;
+float:right;
+margin-top: 2vh;
+}
+.bot4
+{
+width:100%;
+height:20vh;
+float:left;
+margin-top: 2vh;
+}
+.bot4L
+{
+width:50%;
+float:left;
+}
+.bot4R
+{
+width:50%;
+float:right;
+
+}
+.isa
+{
+width:50%;
+height: 20vh;
+float:right;
+margin-tOp: 5vh;
+background-image: url("bilder/isk.png");
+background-size:cover;
+}
+
+</style>
+</head>
+
+<body>
+<script>
+
+
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+if (prevScrollpos > currentScrollPos) {
+document.getElementById("topDiv").style.top = "0";
+} else {
+document.getElementById("topDiv").style.top = "-10vh";
+}
+prevScrollpos = currentScrollPos;
+}
+</script>
+
+<div id ="topDiv" >
+<div class ="Menu" class ="tPartsParts" onclick="location.href='main.html';" style="cursor: pointer;"></div>
+<h2>
+<div class="Bars"><a href = "budget.html">Budget</a></div>
+<div class="Bars"><a href = "sparande.html">Sparande</a></div>
+<div class="Bars"><a href = "avtal.html">Avtal</a></div>
+<div class="Bars"><a href = "index.html">Quiz</a></div>
+</div>
+</h2>
+
+<h1>Sparande</h1>
+<hr></hr>
+<div class ="bigBox">
+<div class ="topBox">
+<div class ="topL"><h3>Sparande och aktier</h3><br>
+Att spara pengar innebär att lägga undan pengar tills senare. Det finns också möjligheten att investera de sparade pengarna i aktier eller fonder i hopp om att de ska öka i värde. En aktie är en ägande 
+andel i ett företag. Om en privatperson köper en aktie från ett företag, så kan man säga att den äger en del av företaget och dess resurser. För privatpersoner så innebär denna möjlighet att ens
+ sparpengar kan lättare ackumulera, och därmed om något motverka inflationen.<br><br><img src="bilder/sparande.jfif"></div>
+<div class ="topR"><div class ="midRe"><h3>Varför investera i fonder?</h3><br>Det finns alltid risker med aktier. Aktier kan vara väldigt svårt att förutsäga. För en 
+ normal privatperson som inte är speciellt insatt så kan aktier vara mer som ett trumspel. Därför kan det i många fall vara smartare för en privatperson att investera i en fond.
+ En fond är som en samling av aktier som ägs av många personer samtidigt.<br>Det är säkrare eftersom man investerar indirekt i många olika företag samtidigt, 
+ vilket minskar risken för förlust. Man kan se det som man investerar i hela marknaden, istället för ett enskilt företag. Marknaden i sin helhet brukar gå upp, men det kan ta mycket längre tid för 
+ resultat än om man investerar i enskilda aktier. Man brukar räkna att fonder är mer långtidssparande.</div>
+<div class ="midR"><h3>Vad är ISK?</h3><br>Ett investeringssparkonto (ISK) infördes 2012 av riksdagen som är tänkt att göra det lättare för privatpersoner att investera i aktier då 
+de slipper deklarationsregler. Ett ISK-konto kan bara ägas av en person och dessutom kan minderåriga äga ett. Ett ISK-konto är gratis, men det förekommer kostnader som skatt och andra
+ avgifter. Som privatperson betalar man inte skatt på vinster eller utdelningar, men skatten förekommer årligen i form av en schablonskatt, oavsett om du har gjort vinst eller förlust
+ på kontot. Du skattas alltså på det totala beloppet du har på ditt ISK-konto.</div>
+</div>
+<div class="bot4"><div class ="bot4L"><h6>Fördelar med ISK</h6><ul>
+  <li>Privatperson betalar låg skatt.</li>
+  <li>Deklaration sker automatisk</li>
+  <li>Ingen skatt på vinster.</li>
+  <li>Finns ingen inlåsning.</li></ul>
+  <h6>Nackdelar med ISK</h6><ul>
+  
+   <li>Privatperson betalar låg skatt.</li>
+  <li>Kan ej ägas av företag eller flera personer.</li>
+  <li>Skattar kan höjas om statslåneräntan går upp.</li>
+  <li>Betalar skatt även om du har gått med förlust.</li><br>
+</ul></div>
+<div class="bot4R"><h3>Vad är obligationer?</h3><br>Obligationer är ett slags bevis på att man har lånat ut pengar. Det är ett skuldebrev som berättar när och hur mycket låntagaren ska betala. Om ett land ger ut obligationer så kallas det statsobligationer och
+ respektive företagsobligationer för företag. Det brukar vara räntor på obligationer. Räntorna kan variera och är oftast högre vid hög risk och lägre vid låg risk.</div>
+</div>
+<div class ="isa"></div>
+
+</div>
+
+
+<div class ="footer"><h4><ab>Hemsida gjord av:</ab><br>Loke Öhrström, &nbsp; Lukas Åkerlind,&nbsp; Elias Nordfors, &nbsp; Samuel Moberg</h4></div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+body 
+{
+	font-family: 'Quicksand', sans-serif;
+	background-color:white;
+	margin: 0;
+	padding: 0;
+	font-size: 2vh;
+}
+}
+h1 {
+    text-align: center;
+}
+.button 
+{
+    
+    width: 5vw;
+    text-align: center;
+    float:right;
+    background-color: #fff;
+    cursor: pointer;
+	margin-left: 2vh;
+	margin-top: -4vh;
+}
+.tes
+{
+	width: 100vw;
+	height: 100vh;
+	background-color:red;
+}
+
+.button a 
+{
+    text-decoration: none;
+    color: black;
+    line-height: 2vw;
+	font-family: calibri;
+}
+.topDiv	
+{
+	height: 10vh;
+	background-color:rgba(0, 0, 0, 0.9);
+	width:100%;
+	position: sticky;
+	top: 0;
+	margin: 0;
+	
+}
+#container 
+{
+    width:50%;
+    margin: 15vh auto;
+    padding: 4vh 4vh;
+	height: 40vh;
+    background-color: #2c67c7;
+    border-radius:1vh;
+    color: #fff;
+    box-shadow: 0 0 10px 0 #999;
+}
+ul 
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 30vw;
+	height: 18vh;
+	text-align: left;
+	font-size: 2vh;
+}
+ul li
+{
+    background: #15428c;
+	height: 50%;
+	transform: scale(0.96, 0.9);
+	 vertical-align : middle;
+    width: 50%;
+	margin: 0;
+	float:left;
+    display: inline-block; 
+}
+#prev 
+{
+    display:none;
+}
+#start 
+{
+    display:none;
+    width: 10vw;
+}
+input[type="radio"]{
+    cursor: pointer;
+}

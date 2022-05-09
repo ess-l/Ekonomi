@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+
+<title>Budget</title>
+<style>
+h1{margin-top: 5vh; font-size: 8vh;}
+h3 { font-size: 4vh; text-align: lefT;}
+
+.bigBox
+{
+width: 100%;
+height: 115vh;
+margin: auto;
+margin-top: 12vh;
+}
+.smallerBox
+{
+width: 60%;
+height: 100%;
+margin: auto;
+font-size: 2vh;
+color: black;
+text-align: justify;
+font-family: 'Roboto', sans-serif;
+}
+.leftBox1
+{
+width: 50%;
+float: left;
+}
+.leftBox2
+{
+width: 100%;
+float: left;
+}
+
+.rightBoxT
+{
+width: 45%;
+height: 52vh;
+float: right;
+}
+.rightBoxT2
+{
+width: 70%;
+height: 90%;
+background-image:url("bilder/budgetList.jpg");
+background-size: cover;
+
+}
+.rightBoxT3
+{
+width: 70%;
+height: 10%;
+font-size: 1.5vh;
+}
+
+.midBox
+{
+float:left;
+width:100%;
+height: 30vh;
+margin-top: 1vh;
+}
+.midBox2
+{
+width:50%;
+height: 100%;
+float:left;
+}
+
+.midBox3
+{
+width:45%;
+height: 100%;
+float:right;
+
+}
+.bBox
+{
+width:50%;
+height: 35vh;
+float:left;
+margin-top: 6vh;
+margin-left: 25%;
+background-image: url("bilder/budget.jpg");
+background-size: cover;
+}
+
+
+
+</style>
+</head>
+
+<body>
+<script>
+
+
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+if (prevScrollpos > currentScrollPos) {
+document.getElementById("topDiv").style.top = "0";
+} else {
+document.getElementById("topDiv").style.top = "-10vh";
+}
+prevScrollpos = currentScrollPos;
+}
+</script>
+
+<div id ="topDiv" >
+<div class ="Menu" class ="tPartsParts" onclick="location.href='main.html';" style="cursor: pointer;"></div>
+<h2>
+<div class="Bars"><a href = "budget.html">Budget</a></div>
+<div class="Bars"><a href = "sparande.html">Sparande</a></div>
+<div class="Bars"><a href = "avtal.html">Avtal</a></div>
+<div class="Bars"><a href = "index.html">Quiz</a></div>
+</div>
+</h2>
+
+<h1>Budget</h1>
+<hr></hr>
+
+<div class = "bigBox"><div class="smallerBox">
+<div class ="leftBox1"><div class ="leftBox2"><h3>Vad är en budget?</h3><br>En budget är inkomster och utgifter för ett hushåll under en viss period. En slags plan hur de båda ska hanteras. Den disponibla inkomsten är alla pengar som kommer in efter skatt, lön, barnbidrag och bostadsbidrag exempelvis. Alltså, det som individen har att spendera i slutet av månaden. Utgifter är allt som hushållet spenderar. Hyra, el, sophämtning och abonnemang etc. Utgifter består inte bara av nödvändiga saker utan även shopping och andra dyra vanor en person må ha.</div>
+<div class = "leftBox2"><br><h3>Varför används de?</h3><br>Pengarna som blir kvar i slutet av månaden är ett direkt resultat av hur budgeten ser ut och dess uppbyggnad. Syftet med att skapa en budget är att balansera inkomster med utgifter så pengarna räcker över perioden som budgeten avser. Utan en budget är det lätt att bli förvirrad och förlora kontrollen över sin ekonomi. En fungerande budget är ett måste för en fungerande ekonomi.</div>
+</div>
+<div class = "rightBoxT"><div class ="rightBoxT2"></div><div class ="rightBoxT3">Budgeten ovan är ett exempel och visar hur en hur utgifterna i en budget kan se ut för en privatperson.</div></div>
+<div class ="midBox"><div class ="midBox2"><h3>Hur gör man en?</h3></center><br>När man skapar en budget är det viktigt att ta hänsyn till de viktigaste och mest nödvändiga utgifterna. Hyra för tak över huvudet, mat som mättar och någon slags transport som tar dig till det jobb som ger dig en inkomst. En inkomst som krävs för att täcka de månatliga utgifterna. När de viktigaste utgifterna prioriterats kan man spendera pengar på annat, lite mer roliga saker, lite bättre. Dock inte mer än vad som finns att tillgå. Om så är fallet riskerar budgeten att inte gå ihop, den går sönder.</div>
+<div class ="midBox3"><h3>Vilka använder en?</h3><br>Att ha en budget är inte bara viktigt för privatpersoner. Det är minst lika viktigt för företag att ha en budget, en budget som inte bara går ihop utan också maximerar dess omsättning och vinst för företaget. Mer vinst innebär större investeringar från företagens håll vilket i sin tur ger både mer till samhället liksom det gör för företagen. Båda parter gynnas av en bra och stabil budget.</div>
+</div>
+<div class ="bBox"></div>
+</div>
+<div class ="footer"><h4><ab>Hemsida gjord av:</ab><br>Loke Öhrström, &nbsp; Lukas Åkerlind,&nbsp; Elias Nordfors, &nbsp; Samuel Moberg</h4></div>
+
+</div>
+
+
+
+</body>
+</html>
